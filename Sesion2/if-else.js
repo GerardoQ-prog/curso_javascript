@@ -17,5 +17,14 @@ let puntaje1
 if(typeof puntaje1 != 'undefined'){
     console.log(`El puntaje fue de ${puntaje}`)
 }else{
-    console.log('no hay puntaje')
+    console.log('no hay puntaje') 
+}
+
+let efectivo = 500
+
+let totlacarrito=300
+if(efectivo>totlacarrito){
+    console.log('pago correcto')
+}else{
+    console.log('fondos insuficiente')
 }
