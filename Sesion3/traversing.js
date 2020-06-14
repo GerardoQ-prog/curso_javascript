@@ -1,0 +1,1 @@
+const navegacion = document.querySelector()
